@@ -1,0 +1,14 @@
+/Users/ngdev/Training/HTS/MonPremierProjet/bin/Debug/net10.0/MonPremierProjet
+/Users/ngdev/Training/HTS/MonPremierProjet/bin/Debug/net10.0/MonPremierProjet.deps.json
+/Users/ngdev/Training/HTS/MonPremierProjet/bin/Debug/net10.0/MonPremierProjet.runtimeconfig.json
+/Users/ngdev/Training/HTS/MonPremierProjet/bin/Debug/net10.0/MonPremierProjet.dll
+/Users/ngdev/Training/HTS/MonPremierProjet/bin/Debug/net10.0/MonPremierProjet.pdb
+/Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/MonPremierProjet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/MonPremierProjet.AssemblyInfoInputs.cache
+/Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/MonPremierProjet.AssemblyInfo.cs
+/Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/MonPremierProjet.csproj.CoreCompileInputs.cache
+/Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/MonPremierProjet.dll
+/Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/refint/MonPremierProjet.dll
+/Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/MonPremierProjet.pdb
+/Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/MonPremierProjet.genruntimeconfig.cache
+/Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/ref/MonPremierProjet.dll
