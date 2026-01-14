@@ -1,0 +1,15 @@
+/Users/ngdev/Training/HTS/Module1/InfosPersos/bin/Debug/net10.0/InfosPersos
+/Users/ngdev/Training/HTS/Module1/InfosPersos/bin/Debug/net10.0/InfosPersos.deps.json
+/Users/ngdev/Training/HTS/Module1/InfosPersos/bin/Debug/net10.0/InfosPersos.runtimeconfig.json
+/Users/ngdev/Training/HTS/Module1/InfosPersos/bin/Debug/net10.0/InfosPersos.dll
+/Users/ngdev/Training/HTS/Module1/InfosPersos/bin/Debug/net10.0/InfosPersos.pdb
+/Users/ngdev/Training/HTS/Module1/InfosPersos/obj/Debug/net10.0/InfosPersos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ngdev/Training/HTS/Module1/InfosPersos/obj/Debug/net10.0/InfosPersos.AssemblyInfoInputs.cache
+/Users/ngdev/Training/HTS/Module1/InfosPersos/obj/Debug/net10.0/InfosPersos.AssemblyInfo.cs
+/Users/ngdev/Training/HTS/Module1/InfosPersos/obj/Debug/net10.0/InfosPersos.csproj.CoreCompileInputs.cache
+/Users/ngdev/Training/HTS/Module1/InfosPersos/obj/Debug/net10.0/InfosPersos.sourcelink.json
+/Users/ngdev/Training/HTS/Module1/InfosPersos/obj/Debug/net10.0/InfosPersos.dll
+/Users/ngdev/Training/HTS/Module1/InfosPersos/obj/Debug/net10.0/refint/InfosPersos.dll
+/Users/ngdev/Training/HTS/Module1/InfosPersos/obj/Debug/net10.0/InfosPersos.pdb
+/Users/ngdev/Training/HTS/Module1/InfosPersos/obj/Debug/net10.0/InfosPersos.genruntimeconfig.cache
+/Users/ngdev/Training/HTS/Module1/InfosPersos/obj/Debug/net10.0/ref/InfosPersos.dll

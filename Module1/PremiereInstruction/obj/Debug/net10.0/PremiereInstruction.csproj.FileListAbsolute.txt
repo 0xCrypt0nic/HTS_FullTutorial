@@ -1,0 +1,15 @@
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/bin/Debug/net10.0/PremiereInstruction
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/bin/Debug/net10.0/PremiereInstruction.deps.json
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/bin/Debug/net10.0/PremiereInstruction.runtimeconfig.json
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/bin/Debug/net10.0/PremiereInstruction.dll
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/bin/Debug/net10.0/PremiereInstruction.pdb
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/obj/Debug/net10.0/PremiereInstruction.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/obj/Debug/net10.0/PremiereInstruction.AssemblyInfoInputs.cache
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/obj/Debug/net10.0/PremiereInstruction.AssemblyInfo.cs
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/obj/Debug/net10.0/PremiereInstruction.csproj.CoreCompileInputs.cache
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/obj/Debug/net10.0/PremiereInstruction.sourcelink.json
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/obj/Debug/net10.0/PremiereInstruction.dll
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/obj/Debug/net10.0/refint/PremiereInstruction.dll
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/obj/Debug/net10.0/PremiereInstruction.pdb
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/obj/Debug/net10.0/PremiereInstruction.genruntimeconfig.cache
+/Users/ngdev/Training/HTS/Module1/PremiereInstruction/obj/Debug/net10.0/ref/PremiereInstruction.dll
