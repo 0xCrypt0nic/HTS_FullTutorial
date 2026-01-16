@@ -12,3 +12,4 @@
 /Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/MonPremierProjet.pdb
 /Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/MonPremierProjet.genruntimeconfig.cache
 /Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/ref/MonPremierProjet.dll
+/Users/ngdev/Training/HTS/MonPremierProjet/obj/Debug/net10.0/MonPremierProjet.sourcelink.json
