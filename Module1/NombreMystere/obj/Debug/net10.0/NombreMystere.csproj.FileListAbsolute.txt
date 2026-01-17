@@ -1,0 +1,15 @@
+/Users/ngdev/Training/HTS/Module1/NombreMystere/bin/Debug/net10.0/NombreMystere
+/Users/ngdev/Training/HTS/Module1/NombreMystere/bin/Debug/net10.0/NombreMystere.deps.json
+/Users/ngdev/Training/HTS/Module1/NombreMystere/bin/Debug/net10.0/NombreMystere.runtimeconfig.json
+/Users/ngdev/Training/HTS/Module1/NombreMystere/bin/Debug/net10.0/NombreMystere.dll
+/Users/ngdev/Training/HTS/Module1/NombreMystere/bin/Debug/net10.0/NombreMystere.pdb
+/Users/ngdev/Training/HTS/Module1/NombreMystere/obj/Debug/net10.0/NombreMystere.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ngdev/Training/HTS/Module1/NombreMystere/obj/Debug/net10.0/NombreMystere.AssemblyInfoInputs.cache
+/Users/ngdev/Training/HTS/Module1/NombreMystere/obj/Debug/net10.0/NombreMystere.AssemblyInfo.cs
+/Users/ngdev/Training/HTS/Module1/NombreMystere/obj/Debug/net10.0/NombreMystere.csproj.CoreCompileInputs.cache
+/Users/ngdev/Training/HTS/Module1/NombreMystere/obj/Debug/net10.0/NombreMystere.sourcelink.json
+/Users/ngdev/Training/HTS/Module1/NombreMystere/obj/Debug/net10.0/NombreMystere.dll
+/Users/ngdev/Training/HTS/Module1/NombreMystere/obj/Debug/net10.0/refint/NombreMystere.dll
+/Users/ngdev/Training/HTS/Module1/NombreMystere/obj/Debug/net10.0/NombreMystere.pdb
+/Users/ngdev/Training/HTS/Module1/NombreMystere/obj/Debug/net10.0/NombreMystere.genruntimeconfig.cache
+/Users/ngdev/Training/HTS/Module1/NombreMystere/obj/Debug/net10.0/ref/NombreMystere.dll

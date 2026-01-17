@@ -7,3 +7,12 @@ int age = 0;
 int.TryParse(Console.ReadLine(), out age);
 Console.Clear();
 Console.WriteLine($"Bonjour {prenom}, vous avez {age} ans.");
+
+if (age >= 18)
+{
+    Console.WriteLine("Vous êtes majeur");
+}
+else
+{
+    Console.WriteLine("Vous êtes mineur");
+}
