@@ -1,30 +1,45 @@
 ﻿// Jeu NombreMystere
 const int nbMystere = 7;
+List<int> listOfNumbers = new List<int>();
 
-Console.WriteLine("Bonjour et bienvenu dans le jeu du Nombre Mystere, comment vous appelez vous ?");
-string? name = Console.ReadLine();
+bool gagne = false;
+int nombre = 0;
 
-Console.WriteLine($"Parfait {name}, vous pouvez essayer de deviner le nombre mystere !, allez-y c'est à vous : ");
+Console.Clear();
 
-int res = 0;
-
-while (res != nbMystere)
+while (!gagne)
 {
-    int.TryParse(Console.ReadLine(), out res);
-    if (res != nbMystere)
-        Console.WriteLine("Mauvaise réponse, essayez encore :");
-
-    if (res < nbMystere)
+    if (listOfNumbers.Any())
     {
-        Console.WriteLine("Le nombre est plus grand !");
+        Console.WriteLine("Nombres déjà saisis : ");
+        foreach (int nb in listOfNumbers)
+        {
+            Console.Write($" {nb}");
+        }
+        Console.WriteLine("");
     }
-    else if (res > nbMystere)
+    Console.WriteLine("Saisir un nombre entre 1 et 10");
+    int.TryParse(Console.ReadLine(), out nombre);
+
+    listOfNumbers.Add(nombre);
+
+    if (nombre == nbMystere)
     {
-        Console.WriteLine("Le nombre est plus petit !");
+        Console.WriteLine("Félicitations ! Vous avez gagné et trouvé le nombre mystère");
+        gagne = true;
     }
     else
     {
-        Console.WriteLine("Bravo !");
+        Console.Clear();
+
+        if (nombre > nbMystere)
+        {
+            Console.WriteLine("Raté ! Trop grand !!");
+        }
+        else
+        {
+            Console.WriteLine("Raté ! Trop petit !!");
+        }
     }
 }
 
