@@ -1,0 +1,15 @@
+/Users/ngdev/Training/HTS/Module1/TestingEx/bin/Debug/net10.0/TestingEx
+/Users/ngdev/Training/HTS/Module1/TestingEx/bin/Debug/net10.0/TestingEx.deps.json
+/Users/ngdev/Training/HTS/Module1/TestingEx/bin/Debug/net10.0/TestingEx.runtimeconfig.json
+/Users/ngdev/Training/HTS/Module1/TestingEx/bin/Debug/net10.0/TestingEx.dll
+/Users/ngdev/Training/HTS/Module1/TestingEx/bin/Debug/net10.0/TestingEx.pdb
+/Users/ngdev/Training/HTS/Module1/TestingEx/obj/Debug/net10.0/TestingEx.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ngdev/Training/HTS/Module1/TestingEx/obj/Debug/net10.0/TestingEx.AssemblyInfoInputs.cache
+/Users/ngdev/Training/HTS/Module1/TestingEx/obj/Debug/net10.0/TestingEx.AssemblyInfo.cs
+/Users/ngdev/Training/HTS/Module1/TestingEx/obj/Debug/net10.0/TestingEx.csproj.CoreCompileInputs.cache
+/Users/ngdev/Training/HTS/Module1/TestingEx/obj/Debug/net10.0/TestingEx.sourcelink.json
+/Users/ngdev/Training/HTS/Module1/TestingEx/obj/Debug/net10.0/TestingEx.dll
+/Users/ngdev/Training/HTS/Module1/TestingEx/obj/Debug/net10.0/refint/TestingEx.dll
+/Users/ngdev/Training/HTS/Module1/TestingEx/obj/Debug/net10.0/TestingEx.pdb
+/Users/ngdev/Training/HTS/Module1/TestingEx/obj/Debug/net10.0/TestingEx.genruntimeconfig.cache
+/Users/ngdev/Training/HTS/Module1/TestingEx/obj/Debug/net10.0/ref/TestingEx.dll
