@@ -13,6 +13,18 @@ while (res != nbMystere)
     int.TryParse(Console.ReadLine(), out res);
     if (res != nbMystere)
         Console.WriteLine("Mauvaise réponse, essayez encore :");
+
+    if (res < nbMystere)
+    {
+        Console.WriteLine("Le nombre est plus grand !");
+    }
+    else if (res > nbMystere)
+    {
+        Console.WriteLine("Le nombre est plus petit !");
+    }
+    else
+    {
+        Console.WriteLine("Bravo !");
+    }
 }
 
-Console.WriteLine("Bravo !");
