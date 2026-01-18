@@ -7,13 +7,12 @@ string? name = Console.ReadLine();
 Console.WriteLine($"Parfait {name}, vous pouvez essayer de deviner le nombre mystere !, allez-y c'est à vous : ");
 
 int res = 0;
-int.TryParse(Console.ReadLine(), out res);
 
-if (res == nbMystere)
+while (res != nbMystere)
 {
-    Console.WriteLine("Vous avez gagné");
+    int.TryParse(Console.ReadLine(), out res);
+    if (res != nbMystere)
+        Console.WriteLine("Mauvaise réponse, essayez encore :");
 }
-else
-{
-    Console.WriteLine("Vous avez perdu");
-}
+
+Console.WriteLine("Bravo !");
