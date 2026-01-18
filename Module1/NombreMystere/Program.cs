@@ -1,5 +1,6 @@
 ﻿// Jeu NombreMystere
 const int nbMystere = 7;
+
 List<int> listOfNumbers = new List<int>();
 
 bool gagne = false;
@@ -19,7 +20,18 @@ while (!gagne)
         Console.WriteLine("");
     }
     Console.WriteLine("Saisir un nombre entre 1 et 10");
-    int.TryParse(Console.ReadLine(), out nombre);
+
+    while (nombre < 1 || nombre > 10)
+    {
+        try
+        {
+            nombre = int.Parse(Console.ReadLine());
+        }
+        catch
+        {
+            nombre = 0;
+        }
+    }
 
     listOfNumbers.Add(nombre);
 
