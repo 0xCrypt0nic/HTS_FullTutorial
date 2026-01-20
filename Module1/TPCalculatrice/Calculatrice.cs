@@ -4,19 +4,24 @@ namespace TPCalculatrice
 {
     public class Calculatrice
     {
+        public int OperG { get; set; }
+        public int OperD { get; set; }
+        public int Resultat { get; set; }
+
+
         /// <summary>
         /// Méthode pour Additionner deux entiers.
         /// </summary>
-        /// <param name="a">Premier nombre (entier)</param>
-        /// <param name="b">Deuxième nombre (entier)</param>
+        /// <param name="OperG">Premier nombre (entier)</param>
+        /// <param name="OperD">Deuxième nombre (entier)</param>
         /// <returns>Résultat de l'addition</returns>
-        public int Addition(int a, int b) => a + b;
-        public int Soustraction(int a, int b) => a - b;
-        public int Multiplication(int a, int b) => a * b;
-        public int Division(int a, int b)
+        public void Addition(int OperG, int OperD) => Resultat = OperG + OperD;
+        public void Soustraction(int OperG, int OperD) => Resultat = OperG - OperD;
+        public void Multiplication(int OperG, int OperD) => Resultat = OperG * OperD;
+        public void Division(int OperG, int OperD)
         {
-            return b == 0 ? 0 : a / b;
+            Resultat = OperD == 0 ? 0 : OperG / OperD;
         }
-        public int Modulo(int a, int b) => a % b;
+        public void Modulo(int OperG, int OperD) => Resultat = OperG % OperD;
     }
 }
