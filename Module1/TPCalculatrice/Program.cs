@@ -2,15 +2,16 @@
 
 //Calculatrice uneCalculatrice = new Calculatrice();
 //Console.WriteLine($"Résultat de 5 + 5 : {uneCalculatrice.Addition(5, 5)}");
-Calculatrice calc = new();
 
 Console.WriteLine("Bienvenue sur une calculatrice");
 
 Console.WriteLine("Saisissez le premier nombre :");
-calc.OperG = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Saisissez le deuxième nombre :");
-calc.OperD = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+
+Calculatrice calc = new(a, b);
 
 Console.WriteLine("Saisissez votre opérateur :");
 string operateur = Console.ReadLine();

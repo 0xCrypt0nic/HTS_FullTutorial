@@ -8,6 +8,12 @@ namespace TPCalculatrice
         public int OperD { get; set; }
         public int Resultat { get; set; }
 
+        public Calculatrice(int a, int b)
+        {
+            OperG = a;
+            OperD = b;
+        }
+
 
         /// <summary>
         /// Méthode pour Additionner deux entiers.
