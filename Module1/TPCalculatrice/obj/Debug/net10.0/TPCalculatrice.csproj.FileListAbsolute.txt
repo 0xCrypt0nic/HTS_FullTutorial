@@ -1,0 +1,15 @@
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/bin/Debug/net10.0/TPCalculatrice
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/bin/Debug/net10.0/TPCalculatrice.deps.json
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/bin/Debug/net10.0/TPCalculatrice.runtimeconfig.json
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/bin/Debug/net10.0/TPCalculatrice.dll
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/bin/Debug/net10.0/TPCalculatrice.pdb
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/obj/Debug/net10.0/TPCalculatrice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/obj/Debug/net10.0/TPCalculatrice.AssemblyInfoInputs.cache
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/obj/Debug/net10.0/TPCalculatrice.AssemblyInfo.cs
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/obj/Debug/net10.0/TPCalculatrice.csproj.CoreCompileInputs.cache
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/obj/Debug/net10.0/TPCalculatrice.sourcelink.json
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/obj/Debug/net10.0/TPCalculatrice.dll
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/obj/Debug/net10.0/refint/TPCalculatrice.dll
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/obj/Debug/net10.0/TPCalculatrice.pdb
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/obj/Debug/net10.0/TPCalculatrice.genruntimeconfig.cache
+/Users/ngdev/Training/HTS/Module1/TPCalculatrice/obj/Debug/net10.0/ref/TPCalculatrice.dll
