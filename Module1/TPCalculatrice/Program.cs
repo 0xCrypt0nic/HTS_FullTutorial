@@ -1,4 +1,5 @@
 ﻿using TPCalculatrice;
+using TPCalculatrice.Operations;
 
 //Calculatrice uneCalculatrice = new Calculatrice();
 //Console.WriteLine($"Résultat de 5 + 5 : {uneCalculatrice.Addition(5, 5)}");
@@ -11,35 +12,38 @@ int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Saisissez le deuxième nombre :");
 int b = int.Parse(Console.ReadLine());
 
-Calculatrice calc = new(a, b);
+Operation operation;
 
 Console.WriteLine("Saisissez votre opérateur :");
 string operateur = Console.ReadLine();
 
 if (operateur == "+")
 {
-    calc.Addition(calc.OperG, calc.OperD);
+    operation = new Addition(a, b);
 }
 else if (operateur == "-")
 {
-    calc.Soustraction(calc.OperG, calc.OperD);
+    operation = new Soustraction(a, b);
 }
 else if (operateur == "/")
 {
-    calc.Division(calc.OperG, calc.OperD);
+    operation = new Division(a, b);
 }
 else if (operateur == "*")
 {
-    calc.Multiplication(calc.OperG, calc.OperD);
+    operation = new Multiplication(a, b);
 }
 else if (operateur == "%")
 {
-    calc.Modulo(calc.OperG, calc.OperD);
+    operation = new Modulo(a, b);
 }
 else
 {
     Console.WriteLine("Opérateur non reconnu");
     return;
 }
+
+Calculatrice calc = new(operation);
+calc.Executer();
 
 Console.WriteLine($"Le résultat de votre opération est : {calc.Resultat}");

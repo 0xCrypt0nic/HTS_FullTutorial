@@ -1,33 +1,45 @@
 using System;
+using TPCalculatrice.Operations;
 
 namespace TPCalculatrice
 {
     public class Calculatrice
     {
-        public int OperG { get; set; }
-        public int OperD { get; set; }
-        public int Resultat { get; set; }
+        public Operation Operation { get; }
 
-        public Calculatrice(int a, int b)
+        public int Resultat => Operation.Resultat;
+
+        public Calculatrice(Operation operation)
         {
-            OperG = a;
-            OperD = b;
+            Operation = operation;
         }
 
-
-        /// <summary>
-        /// Méthode pour Additionner deux entiers.
-        /// </summary>
-        /// <param name="OperG">Premier nombre (entier)</param>
-        /// <param name="OperD">Deuxième nombre (entier)</param>
-        /// <returns>Résultat de l'addition</returns>
-        public void Addition(int OperG, int OperD) => Resultat = OperG + OperD;
-        public void Soustraction(int OperG, int OperD) => Resultat = OperG - OperD;
-        public void Multiplication(int OperG, int OperD) => Resultat = OperG * OperD;
-        public void Division(int OperG, int OperD)
+        public void Executer()
         {
-            Resultat = OperD == 0 ? 0 : OperG / OperD;
+            if (Operation is Addition o)
+            {
+                o.Executer();
+            }
+            else if (Operation is Soustraction s)
+            {
+                s.Executer();
+            }
+            else if (Operation is Multiplication m)
+            {
+                m.Executer();
+            }
+            else if (Operation is Division d)
+            {
+                d.Executer();
+            }
+            else if (Operation is Modulo mo)
+            {
+                mo.Executer();
+            }
+            else
+            {
+                Console.WriteLine("Operation non reconnue");
+            }
         }
-        public void Modulo(int OperG, int OperD) => Resultat = OperG % OperD;
     }
 }
