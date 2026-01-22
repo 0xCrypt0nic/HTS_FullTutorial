@@ -4,12 +4,13 @@ namespace TPCalculatrice.Operations
 {
     public abstract class Operation
     {
-        public int OperandeGauche { get; set; }
-        public int OperandeDroite { get; set; }
+        // protected : ne peut être visible que dans cette classe et les classes filles.
+        protected int OperandeGauche { get; set; }
+        protected int OperandeDroite { get; set; }
 
-        public int Resultat { get; set; }
+        public int Resultat { get; protected set; }
 
-        public Operation(int operandeG, int operandeD)
+        protected Operation(int operandeG, int operandeD)
         {
             OperandeGauche = operandeG;
             OperandeDroite = operandeD;
