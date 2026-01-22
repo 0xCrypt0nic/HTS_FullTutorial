@@ -2,7 +2,7 @@ using System;
 
 namespace TPCalculatrice.Operations
 {
-    public abstract class Operation
+    public abstract class Operation : IOperation
     {
         // protected : ne peut être visible que dans cette classe et les classes filles.
         protected int OperandeGauche { get; set; }
