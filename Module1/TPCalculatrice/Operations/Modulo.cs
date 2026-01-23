@@ -14,5 +14,7 @@ namespace TPCalculatrice.Operations
         {
             Resultat = OperandeGauche % OperandeDroite;
         }
+
+        public override string ToString() => $"{OperandeGauche} % {OperandeDroite} = {Resultat}";
     }
 }

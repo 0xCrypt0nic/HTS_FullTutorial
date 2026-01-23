@@ -11,6 +11,7 @@ namespace TPCalculatrice
 
         public Calculatrice(IOperation operation)
         {
+            Historique.Operations.Add(operation);
             Operation = operation;
         }
 

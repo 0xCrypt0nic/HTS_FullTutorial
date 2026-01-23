@@ -17,5 +17,7 @@ namespace TPCalculatrice.Operations
         }
 
         public abstract void Executer();
+
+        public abstract override string ToString();
     }
 }
