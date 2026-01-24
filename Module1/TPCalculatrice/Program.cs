@@ -6,6 +6,31 @@ using TPCalculatrice.Operations;
 
 Console.WriteLine("Bienvenue sur une calculatrice");
 
+
+int GetIntValue(int nb)
+{
+    int? resultat = null;
+    while (resultat is null)
+    {
+        Console.WriteLine($"Saisissez la valeur {nb} entière :");
+        string? saisie = Console.ReadLine();
+        if (saisie is not null)
+        {
+            try
+            {
+                resultat = int.Parse(saisie);
+            }
+            catch
+            {
+                resultat = null;
+            }
+        }
+    }
+
+    return resultat.Value;
+}
+
+
 while (true)
 {
     Console.WriteLine("Saisissez l'opérateur ou 'q' pour quitter");
@@ -15,12 +40,8 @@ while (true)
         break;
 
 
-    int a, b = 0;
-    Console.WriteLine("Saisissez le premier nombre :");
-    int.TryParse(Console.ReadLine(), out a);
-
-    Console.WriteLine("Saisissez le deuxième nombre :");
-    int.TryParse(Console.ReadLine(), out b);
+    int a = GetIntValue(1);
+    int b = GetIntValue(2);
 
     Operation operation;
 
