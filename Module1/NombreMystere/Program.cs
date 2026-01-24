@@ -25,7 +25,8 @@ while (!gagne)
     {
         try
         {
-            nombre = int.Parse(Console.ReadLine());
+            string? saisie = Console.ReadLine();
+            nombre = saisie is not null ? int.Parse(saisie) : 0;
         }
         catch
         {
