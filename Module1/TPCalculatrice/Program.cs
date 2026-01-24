@@ -9,17 +9,18 @@ Console.WriteLine("Bienvenue sur une calculatrice");
 while (true)
 {
     Console.WriteLine("Saisissez l'opérateur ou 'q' pour quitter");
-    string operateur = Console.ReadLine();
+    string? operateur = Console.ReadLine();
 
-    if (operateur.Equals("q"))
+    if (operateur is null || operateur.Equals("q"))
         break;
 
 
+    int a, b = 0;
     Console.WriteLine("Saisissez le premier nombre :");
-    int a = int.Parse(Console.ReadLine());
+    int.TryParse(Console.ReadLine(), out a);
 
     Console.WriteLine("Saisissez le deuxième nombre :");
-    int b = int.Parse(Console.ReadLine());
+    int.TryParse(Console.ReadLine(), out b);
 
     Operation operation;
 

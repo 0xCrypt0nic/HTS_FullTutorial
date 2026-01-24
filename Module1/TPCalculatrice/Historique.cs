@@ -7,7 +7,5 @@ namespace TPCalculatrice
     {
         public static List<IOperation> Operations { get; }
             = new();
-
-
     }
 }
