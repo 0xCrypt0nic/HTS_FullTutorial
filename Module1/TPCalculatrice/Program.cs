@@ -7,12 +7,12 @@ using TPCalculatrice.Operations;
 Console.WriteLine("Bienvenue sur une calculatrice");
 
 
-int GetIntValue(int nb)
+int GetIntValue(string valeur)
 {
     int? resultat = null;
     while (resultat is null)
     {
-        Console.WriteLine($"Saisissez la valeur {nb} entière :");
+        Console.WriteLine($"Saisissez la valeur {valeur} entière :");
         string? saisie = Console.ReadLine();
         if (saisie is not null)
         {
@@ -40,8 +40,8 @@ while (true)
         break;
 
 
-    int a = GetIntValue(1);
-    int b = GetIntValue(2);
+    int a = GetIntValue("première");
+    int b = GetIntValue("deuxième");
 
     Operation operation;
 
