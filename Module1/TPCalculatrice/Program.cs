@@ -43,38 +43,48 @@ while (true)
     int a = GetIntValue("première");
     int b = GetIntValue("deuxième");
 
-    Operation operation;
+    Operation? operation;
 
-    if (operateur == "+")
-    {
-        operation = new Addition(a, b);
-    }
-    else if (operateur == "-")
-    {
-        operation = new Soustraction(a, b);
-    }
-    else if (operateur == "/")
-    {
-        operation = new Division(a, b);
-    }
-    else if (operateur == "*")
-    {
-        operation = new Multiplication(a, b);
-    }
-    else if (operateur == "%")
-    {
-        operation = new Modulo(a, b);
-    }
-    else
-    {
-        Console.WriteLine("Opérateur non reconnu");
-        return;
-    }
+    // switch (operateur)
+    // {
+    //     case "+":
+    //         operation = new Addition(a, b);
+    //         break;
+    //     case "-":
+    //         operation = new Soustraction(a, b);
+    //         break;
+    //     case "*":
+    //         operation = new Multiplication(a, b);
+    //         break;
+    //     case "/":
+    //         operation = new Division(a, b);
+    //         break;
+    //     case "%":
+    //         operation = new Modulo(a, b);
+    //         break;
+    //     default:
+    //         operation = null;
+    //         Console.WriteLine("Opérateur non reconnu");
+    //         break;
+    // }
 
-    Calculatrice calc = new(operation);
-    calc.Executer();
+    operation = operateur switch
+    {
+        "+" => new Addition(a, b),
+        "-" => new Soustraction(a, b),
+        "*" => new Multiplication(a, b),
+        "/" => new Division(a, b),
+        "%" => new Modulo(a, b),
+        _ => null
+    };
 
-    Console.WriteLine($"Le résultat de votre opération est : {calc.Resultat}");
+    if (operation is not null)
+    {
+        Calculatrice calc = new(operation);
+        calc.Executer();
+
+        Console.WriteLine($"Le résultat de votre opération est : {calc.Resultat}");
+    }
 }
 
 foreach (Operation uneOp in Historique.Operations)
