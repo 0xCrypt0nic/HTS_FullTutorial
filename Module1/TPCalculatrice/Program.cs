@@ -43,7 +43,7 @@ while (true)
     int a = GetIntValue("première");
     int b = GetIntValue("deuxième");
 
-    Operation? operation;
+    Operation operation;
 
     // switch (operateur)
     // {
@@ -68,22 +68,26 @@ while (true)
     //         break;
     // }
 
-    operation = operateur switch
+    try
     {
-        "+" => new Addition(a, b),
-        "-" => new Soustraction(a, b),
-        "*" => new Multiplication(a, b),
-        "/" => new Division(a, b),
-        "%" => new Modulo(a, b),
-        _ => null
-    };
+        operation = operateur switch
+        {
+            "+" => new Addition(a, b),
+            "-" => new Soustraction(a, b),
+            "*" => new Multiplication(a, b),
+            "/" => new Division(a, b),
+            "%" => new Modulo(a, b),
+            _ => throw new OperateurNonReconnuException($"{operateur} est un opérateur non reconnu")
+        };
 
-    if (operation is not null)
-    {
         Calculatrice calc = new(operation);
         calc.Executer();
 
         Console.WriteLine($"Le résultat de votre opération est : {calc.Resultat}");
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
     }
 }
 
