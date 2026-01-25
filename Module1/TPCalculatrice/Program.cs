@@ -77,13 +77,18 @@ while (true)
             "*" => new Multiplication(a, b),
             "/" => new Division(a, b),
             "%" => new Modulo(a, b),
-            _ => throw new OperateurNonReconnuException($"{operateur} est un opérateur non reconnu")
+            _ => throw new OperateurNonReconnuException(operateur)
         };
 
         Calculatrice calc = new(operation);
         calc.Executer();
 
         Console.WriteLine($"Le résultat de votre opération est : {calc.Resultat}");
+    }
+    catch (OperateurNonReconnuException e)
+    when (e.Message is not null)
+    {
+        Console.WriteLine(e.Message);
     }
     catch (Exception e)
     {

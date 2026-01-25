@@ -5,20 +5,12 @@ namespace TPCalculatrice
 {
     public class OperateurNonReconnuException : Exception
     {
-        public OperateurNonReconnuException()
-        {
-        }
+        public string Operateur { get; set; } = "";
 
-        public OperateurNonReconnuException(string? message) : base(message)
+        public OperateurNonReconnuException(string ope)
+            : base($"L'opérateur {ope} n'est pas reconnu")
         {
-        }
-
-        public OperateurNonReconnuException(string? message, Exception? innerException) : base(message, innerException)
-        {
-        }
-
-        protected OperateurNonReconnuException(SerializationInfo info, StreamingContext context) : base(info, context)
-        {
+            Operateur = ope;
         }
     }
 }
